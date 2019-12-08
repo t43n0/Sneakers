@@ -24,7 +24,7 @@ header {
     padding-bottom: 0.3125rem;
     text-align: center;
     font-family: 'Open Sans';
-    background-color: #2067ac;
+    background-color: #353535;
 }
 .PortContainer {
     position: absolute;
@@ -71,7 +71,7 @@ a.Rlink:hover {
 nav {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    background-color: #4f92d3;
+    background-color: #747474;
     padding-top: 0.13rem;
     padding-bottom: 0.3125rem;
     color: white;
@@ -131,7 +131,7 @@ p.parrafo {
     .BigImgFPort {
         width: 100%;
         height: 32%;
-        background-image: url(/portfolioFyQ-Bach1/img/heic1502b.jpg);
+        background-image: url(/Sneakers/img/material-design-backgrounde15.jpg);
     }
     .BigImgFPort img {
         width: 1200px;
