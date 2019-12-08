@@ -142,7 +142,7 @@ p.parrafo {
     .BigImgQPort {
         width: 100%;
         height: 32%;
-        background-color:#227fa8;
+        background-color:#fff;
     }
     .BigImgQPort img {
         width: 1200px;
@@ -436,7 +436,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     top: 0;
     left: 0;
     z-index: 2;
-    background:#004992;
+    background:#353535;
     overflow-x: hidden;
     transition: 0.4s;
     padding: 1rem 0;
@@ -476,12 +476,12 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 .sidebar a:hover{
     color:#fff;
-    background-color: #00324b9d;
+    background-color: #585858f2;
     text-decoration: none;
 }
 p.ActualMenu {
     color:#fff;
-    background-color: #00324b;
+    background-color: #585858;
     text-decoration: none;
     padding-left: 0.16rem;
 }
@@ -497,7 +497,7 @@ p.ActualMenu a:hover {
 }
 .subMenu {
     padding-left: 0.3rem;
-    border-left: solid 0.16rem #00324b;
+    border-left: solid 0.16rem #000;
     margin-left: 1rem;
 }
 .ActualSubMenu {
@@ -507,7 +507,7 @@ p.ActualMenu a:hover {
     padding-left: 0.3rem;
     border-left: solid 0.16rem white;
     text-decoration: none;
-    background-color: #00324b6e;
+    background-color: #e6e6e66e;
     cursor: default;
     font-size: 120%;
 }
