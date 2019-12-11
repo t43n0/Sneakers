@@ -24,7 +24,7 @@ header {
     padding-bottom: 0.3125rem;
     text-align: center;
     font-family: 'Open Sans';
-    background-color: #353535;
+    background-color: #000; /*#353535*/
 }
 .PortContainer {
     position: absolute;
@@ -71,7 +71,7 @@ a.Rlink:hover {
 nav {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    background-color: #747474;
+    background-color: #333; /*#747474*/
     padding-top: 0.13rem;
     padding-bottom: 0.3125rem;
     color: white;
@@ -90,7 +90,7 @@ a.NavLink:active {
 }
 .ActualNav {
     text-decoration: none;
-    color: #585858;
+    color: #000;
     cursor: default;
 } 
 article {
@@ -160,8 +160,9 @@ p.parrafo {
     .goTop:hover {
         text-decoration: none;
         opacity: 1;
+        color: #000;
         border-style: solid;
-        border-width: 0.125rem;
+        border-width: 0.090rem;
         border-color: black;
     }
 
@@ -443,7 +444,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     top: 0;
     left: 0;
     z-index: 2;
-    background:#353535;
+    background:#000; /*#353535*/
     overflow-x: hidden;
     transition: 0.4s;
     padding: 1rem 0;
@@ -485,6 +486,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     color:#fff;
     background-color: #585858f2;
     text-decoration: none;
+    padding-left: 0.16rem;
 }
 p.ActualMenu {
     color:#fff;
@@ -504,7 +506,7 @@ p.ActualMenu a:hover {
 }
 .subMenu {
     padding-left: 0.3rem;
-    border-left: solid 0.16rem #000;
+    border-left: solid 0.16rem #717171;
     margin-left: 1rem;
 }
 .ActualSubMenu {
@@ -519,31 +521,23 @@ p.ActualMenu a:hover {
     font-size: 120%;
 }
 .goTop {
-    color:#2067ac;
-    background-color:#add8e680;
+    color:#666;
+    background-color:#a2a2a280;
     position: fixed;
     padding: 0.7rem 1rem;
     border-radius: 50%;
-    bottom: 40%;
-    right:-1rem;
+    bottom: 30%;
+    right: 1rem;
     text-decoration: none;
     opacity: 0.5;
 }
 .goTop:active {
     text-decoration: none;
-    color:#2067ac;
+    color:#fff;
     opacity:1;
-    background-color:#add8e6;
+    background-color:#000;
 }
-.UnderConstruction {
-    width: 100%;
-    height: 65%;
-    margin-bottom: 8rem;
-}
-.UnderConstruction img {
-    width: 100%;
-    height: 100%;
-}
+
 .ImgCredits {
     width: 100%;
     height: 150px;
@@ -570,51 +564,9 @@ p.ActualMenu a:hover {
     height: all;
 }
 
-.notaSusp {
-    border-style: solid;
-    border-color: red;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 1rem;
-    line-height: 6rem;
-    border-radius: 50%;
-}
-
-.notaAprob {
-    border-style: solid;
-    border-color: #00ea38;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 1rem;
-    line-height: 6rem;
-    border-radius: 50%;
-}
-
-.notaSufic {
-    border-style: solid;
-    border-color: #fad201;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 1rem;
-    line-height: 6rem;
-    border-radius: 50%;
-}
-
-.notaDesc {
-    border-style: solid;
-    border-color:grey;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 1rem;
-    line-height: 6rem;
-    border-radius: 50%;
-}
-
 .nones {
     display: none;
 }
-
-
 
 #NamePort {
     position: absolute;
