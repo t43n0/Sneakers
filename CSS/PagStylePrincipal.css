@@ -185,17 +185,6 @@ p.parrafo {
         left: 0;
         margin: 0.3rem;
     }
-    .TPortada {
-        font-family: 'Open Sans';
-        background-color: #000;
-        color: white;
-        font-size: 5rem;
-        padding: 1rem;
-        border-style: solid;
-        border-width: 0.3rem;
-        border-color: white;
-        border-radius: 20px;
-    }
     #buttonPort {
         position: absolute;
         background: #000;
