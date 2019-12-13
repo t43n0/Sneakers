@@ -121,6 +121,16 @@ p.parrafo {
     p.pleft {
         max-width: 50rem;
     }
+    .artImg {
+        background: url(/Sneakers/img/VansOldSkoolBlack.png) no-repeat fixed center;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+       height: 100%;
+       width: 100% ;
+       text-align: center;
+    }
     .imgContainer {
         vertical-align: text-bottom;
         display: inline-block;
