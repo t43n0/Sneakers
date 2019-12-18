@@ -580,3 +580,25 @@ p.ActualMenu a:hover {
 * {
     user-select: none;
 }
+
+.PayCart {
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    background-color: #ffc439;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.ArtImg {
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 100%;
+    min-width: 15rem;
+    margin: auto;
+    margin: 5rem 0;
+}
+
+.ArtImg img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
