@@ -99,17 +99,11 @@ article {
     margin-left:3%;
     margin-right:3%;
 }
-.articleFinal {
-    padding: 0.3125rem;
-    margin-top: 0.625rem;
-    margin-bottom: 8rem;
-    margin-left:5%;
-    margin-right:5%;
-    z-index: 1;
-}
+
 .bloqueContent {
     width: 100%;
 }
+
 p.parrafo {
     font-size: 1.2rem;
     margin-left: 1rem;
@@ -132,13 +126,7 @@ p.parrafo {
     p.pleft {
         max-width: 50rem;
     }
-    .imgContainer {
-        vertical-align: text-bottom;
-        display: inline-block;
-        width: 30%;
-        min-width: 10rem;
-        margin: auto;
-    }
+
     .imgContainerShop {
         vertical-align: text-bottom;
         display: inline-block;
@@ -146,28 +134,7 @@ p.parrafo {
         min-width: 30rem;
         margin: auto;
     }
-    .BigImgFPort {
-        width: 100%;
-        height: 32%;
-        background-image: url(/Sneakers/img/material-design-backgrounde15.jpg);
-    }
-    .BigImgFPort img {
-        width: 1200px;
-        height: 384px;
-        margin: auto;
-        display: block;
-    }
-    .BigImgQPort {
-        width: 100%;
-        height: 32%;
-        background-color:#fff;
-    }
-    .BigImgQPort img {
-        width: 1200px;
-        height: 400px;
-        margin: auto;
-        display: block;
-    }
+
     .goTop:hover {
         text-decoration: none;
         opacity: 1;
@@ -177,111 +144,17 @@ p.parrafo {
         border-color: black;
     }
 
-    .parrafoExamen {
-        font-size: 1.4rem;
-        margin-left: 5rem;
-        margin-right: 5rem;
-        text-align: justify;
-        display: inline-block;
-    }
-    
-    .listin {
-        text-indent: -1.1rem;
-        margin-left: 6.1rem; 
-    }
-    .firm {
-        color: #555;
-        position:absolute;
-        bottom: 0;
-        left: 0;
-        margin: 0.3rem;
-    }
-    #buttonPort {
-        position: absolute;
-        background: #000;
-        text-align: center;
-        line-height: 9.7rem;
-        z-index: 1;
-        margin-left:auto;
-        margin-right:auto;
-        left:0;
-        right:0;
-        width:10rem;
-        height: 10rem;
-        bottom: 15rem;
-        border-style: solid;
-        border-color: white;
-        border-width: 0.3rem;
-        border-radius: 50%;
-        color: white;
-        font-size: 2rem;
-        font-weight: bold;
-    }
-
-    #buttonPort:hover {
-        position: absolute;
-        background: #000;
-        text-align: center;
-        line-height: 9.7rem;
-        z-index: 1;
-        margin-left:auto;
-        margin-right:auto;
-        left:0;
-        right:0;
-        width:10rem;
-        height: 10rem;
-        bottom: 15rem;
-        border-style: solid;
-        border-color: white;
-        border-width: 0.3rem;
-        border-radius: 50%;
-        color: #4f92d3;
-        font-size: 2rem;
-        font-weight: bold;
-    }
 }
 @media (max-width: 1338px) {
-    p.pleft {
-        max-width: 83.625rem;
-    }
+    
     .imgContainer {
         vertical-align: text-bottom;
         display: block;
         width: 100%;
         margin: auto;
     }
-    .BigImgFPort {
-        width: 100%;
-        height: 32%;
-    }
-    .BigImgFPort img {
-        width: 100%;
-        height: 100%;
-    }
-    .BigImgQPort {
-        width: 100%;
-        height: 32%;
-    }
-    .BigImgQPort img {
-        width: 100%;
-        height: 100%;
-    }
     .goTop:hover {
         text-decoration: none;
-    }
-    .parrafoExamen {
-        font-size: 1.2rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        text-align: justify;
-        display: inline-block;
-    }
-    
-    .listin {
-        text-indent: -1.1rem; 
-    }
-    .firm {
-        display: none;
     }
     .TPortada {
         font-family: 'Open Sans';
@@ -410,7 +283,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] {
 input#abrir-cerrar:checked + label[for="abrir-cerrar"] .MenuIconStyle {
     padding: 0;
     color:transparent;
-    background-image: url(/portfolioFyQ-Bach1/img/CloseIcon.svg);
+    background-image: url(/Sneakers/img/CloseIcon.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1rem;
@@ -568,15 +441,6 @@ p.ActualMenu a:hover {
     display: none;
 }
 
-#NamePort {
-    position: absolute;
-    color: white;
-    font-size: 3rem;
-    bottom: 0;
-    margin: 1rem;
-    font-family:
-}
-
 * {
     user-select: none;
 }
@@ -601,4 +465,25 @@ p.ActualMenu a:hover {
     display: block;
     margin: auto;
     width: 50%;
+}
+
+.CatSelect {
+    background-color: #ff000000;
+    vertical-align: text-bottom;
+    min-width: 15rem;
+    margin: auto;
+}
+
+.Start {
+    background: url(/Sneakers/img/Fondo1.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img.PrimeIcon {
+    display: block;
+    margin: auto;
+    height: 14rem;
 }
