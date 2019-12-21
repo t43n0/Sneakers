@@ -103,7 +103,7 @@ article {
 .bloqueContent {
     width: 100%;
 }
-
+aa
 p.parrafo {
     font-size: 1.2rem;
     margin-left: 1rem;
@@ -120,6 +120,14 @@ p.parrafo {
         min-width: 15rem;
         margin: auto;
     }
+
+    .svgImageTest {
+        vertical-align: text-bottom;
+        display: inline-block;
+        width: 20%;
+        min-width: 15rem;
+        margin: auto;
+    }
 }
 
 @media (min-width: 1339px) {
@@ -132,6 +140,14 @@ p.parrafo {
         display: inline-block;
         width: 60%;
         min-width: 30rem;
+        margin: auto;
+    }
+
+    .svgImageTest {
+        vertical-align: text-bottom;
+        display: inline-block;
+        width: 20%;
+        min-width: 15rem;
         margin: auto;
     }
 
@@ -482,6 +498,21 @@ p.ActualMenu a:hover {
     display: block;
     margin: auto;
     width: 50%;
+}
+
+.RePhoneArtImg {
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 100%;
+    min-width: 15rem;
+    margin: auto;
+    margin: 5rem 0;
+}
+
+.RePhoneArtImg img {
+    display: block;
+    margin: auto;
+    width: 20%;
 }
 
 .CatSelect {
